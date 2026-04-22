@@ -64,6 +64,11 @@ The system is fully containerized and configured for Kubernetes deployment using
    kubectl apply -f argocd-app.yaml
    ```
 
+### 📊 Argo CD Dashboard
+Once deployed, you can monitor the application state in Argo CD:
+
+![Argo CD Dashboard](./argocd-dashboard.png)
+
 3. **Access Argo CD Dashboard:**
    Port-forward the Argo CD UI to your localhost:
    ```bash
